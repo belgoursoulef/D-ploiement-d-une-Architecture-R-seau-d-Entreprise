@@ -1,23 +1,20 @@
-Voici une proposition de fichier `README.md` professionnel et structuré pour votre projet GitHub, rédigé en français et basé sur les documents fournis.
+
+# SAE 1.02 - Déploiement d'une Architecture Réseau d'Entreprise
+
+L'objectif de ce projet est de réalisé l'infrastructure réseau d'une entreprise 
+Les tâches consistaient à configurer les VLANs, établir un accès SSH pour l'administration, configurer le routage Inter-VLAN et permettre l'accès extérieur via NAT/ACL
+
+##  Sommaire
+
+* Objectifs du Projet
+* Cahier des Charges
+* Architecture Réseau
+* Structure du Dépôt
+* Technologies et Outils
 
 ---
 
-# SAE 1.02 - S'initier aux réseaux informatiques 🌐
-
-Ce projet s'inscrit dans le cadre de la **SAE 1.02** (Situation d'Apprentissage et d'Évaluation) du Bachelor Universitaire de Technologie (BUT) Réseaux et Télécommunications. L'objectif principal est de concevoir, simuler et déployer l'infrastructure réseau complète d'une petite entreprise.
-
-## 📖 Sommaire
-
-* [Objectifs du Projet](https://www.google.com/search?q=%23objectifs-du-projet)
-* [Cahier des Charges](https://www.google.com/search?q=%23cahier-des-charges)
-* [Architecture Réseau](https://www.google.com/search?q=%23architecture-r%C3%A9seau)
-* [Structure du Dépôt](https://www.google.com/search?q=%23structure-du-d%C3%A9p%C3%B4t)
-* [Technologies et Outils](https://www.google.com/search?q=%23technologies-et-outils)
-* [Auteurs](https://www.google.com/search?q=%23auteurs)
-
----
-
-## 🎯 Objectifs du Projet
+##  Objectifs du Projet
 
 Le projet vise à valider les compétences professionnelles liées à l'administration réseau:
 
@@ -38,11 +35,11 @@ Le projet vise à valider les compétences professionnelles liées à l'administ
 
 
 
-## 📋 Cahier des Charges
+##  Cahier des Charges
 
 La mission consiste à installer l'infrastructure d'un bureau d'étude disposant de 5 machines physiques par société.
 
-### 🛠 Configuration Requise
+### Configuration Requise
 
 * **Segmentation par VLANs** :
 * 
@@ -76,7 +73,7 @@ La mission consiste à installer l'infrastructure d'un bureau d'étude disposant
 
 
 
-## 🏗 Architecture Réseau
+## Architecture Réseau
 
 Le réseau repose sur une topologie hiérarchique utilisant des équipements Cisco de type **série 800** (routeur) et **2960** (switch).
 
@@ -99,7 +96,7 @@ Le projet est organisé comme suit, reflétant les étapes de mise en place et d
 
 ```
 
-## 🛠 Technologies et Outils
+## Technologies et Outils
 
 * 
 **Simulateurs** : Cisco Packet Tracer / GNS3.

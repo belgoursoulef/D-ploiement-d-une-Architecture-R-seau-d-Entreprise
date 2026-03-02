@@ -18,22 +18,13 @@ Les tâches consistaient à configurer les VLANs, établir un accès SSH pour l'
 
 Le projet vise à valider les compétences professionnelles liées à l'administration réseau:
 
-* 
 **Conception** d'un plan d'adressage IPv4 structuré.
 
-
-* 
 **Configuration** d'équipements actifs (Routeurs et Commutateurs Cisco).
 
-
-* 
 **Segmentation** du réseau via des VLANs pour isoler les différents services.
 
-
-* 
 **Déploiement** de services réseau essentiels (DHCP, DNS, Web Apache).
-
-
 
 ##  Cahier des Charges
 
@@ -42,23 +33,14 @@ La mission consiste à installer l'infrastructure d'un bureau d'étude disposant
 ### Configuration Requise
 
 * **Segmentation par VLANs** :
-* 
+  
 **ADMIN** : Accès privilégié pour les administrateurs et hébergement du serveur Web.
 
-
-* 
 **PERSONNEL** : Communication entre les postes de travail des employés.
 
-
-* 
 **PRODUCTION** : Réseau dédié aux machines de l'usine.
 
-
-* 
 **VIDEO** : Flux d'informations internes.
-
-
-
 
 * **Services** :
 * Serveur DHCP configuré sur le routeur.
@@ -68,10 +50,6 @@ La mission consiste à installer l'infrastructure d'un bureau d'étude disposant
 
 
 * Hébergement d'une page web statique de présentation via **Apache**.
-
-
-
-
 
 ## Architecture Réseau
 
@@ -98,30 +76,17 @@ Le projet est organisé comme suit, reflétant les étapes de mise en place et d
 
 ## Technologies et Outils
 
-* 
 **Simulateurs** : Cisco Packet Tracer / GNS3.
 
-
-* 
 **Systèmes** : Linux (Debian/Ubuntu) et Windows.
 
-
-* 
 **Services** : Apache (Serveur Web).
 
-
-* 
 **Documentation** : Jupyter Notebook & Markdown.
 
-
-* 
 **Schématisation** : Draw.io.
 
-
-* 
 **Gestion de projet** : Diagramme de GANTT.
-
-
 
 ---
 
